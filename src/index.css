@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:hover {
+  background-color: #cbd5e1;
+  color: black;
+}
+.boglanish {
+  background-image: url("./assets/boglanish.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.animating {
+  overflow: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#contact {
+  background-image: url("/src/assets/footerBg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.iconF {
+  background-image: url("/src/assets/bgFaq.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
