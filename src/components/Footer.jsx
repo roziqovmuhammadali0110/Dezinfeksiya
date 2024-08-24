@@ -1,7 +1,6 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import axios from "axios";
 import bg2 from "../assets/footerBg.svg";
-import footerPerson from "../assets/footerPerson.svg";
 import { AiOutlineCheckCircle } from "react-icons/ai"; // OK ikonasini import qilamiz
 import { useTranslation } from "react-i18next";
 
